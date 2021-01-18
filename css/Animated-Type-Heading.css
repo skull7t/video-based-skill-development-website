@@ -1,0 +1,151 @@
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 70px;
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.blc {
+  font-size: 70px;
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-weight: 900;
+}
+
+.caption.v-middle.text-center {
+  width: 500px;
+  height: 400px;
+  color: black;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  color: #F2490C;
+  border-color: #F2490C;
+}
+
+.fa.fa-quote-left {
+  /*color: #F2490C;*/
+}
+
+.fas.fa-user-alt {
+  /*color: #F2490C;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  left: 50px;
+  position: absolute;
+}
+
+.text-uppercase.text-center.text-secondary {
+  font-family: 'Abril Fatface',cursive;
+}
+
+.fa.fa-play:hover {
+  color: #F2490C;
+  cursor: pointer;
+}
+
+body {
+}
+
+.fa.fa-play-circle {
+  font-size: 85px;
+  color: #696767;
+  transition: .2s;
+  position: absolute;
+}
+
+.fa.fa-play-circle:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.text-uppercase.text-center.text-secondary {
+  position: absolute;
+}
+
+.btn.btn-primary.dropdown-toggle {
+  position: absolute;
+}
+
+.dropdown-menu.show {
+  position: absolute;
+}
+
+.h1, h1 {
+  position: absolute;
+}
+
+.fas.fa-window-minimize {
+}
+
+a {
+  color: #ff471a;
+}
+
+.btn.btn-primary-outline {
+}
+
+.fa.fa-play-circle-o {
+  color: #beb0b0;
+  position: absolute;
+  transition: .3s;
+}
+
+.fa.fa-play-circle-o:hover {
+  color: #ff471a;
+  cursor: pointer;
+}
+
+.btn.btn-primary-outline {
+  height: 50px;
+  width: 400px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.row.row-striped {
+  top: 10px;
+}
+
+.bootstrap_calendar {
+  position: relative;
+  left: 100px;
+}
+
